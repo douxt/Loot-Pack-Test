@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Sell</SubtypeId>
+      </Id>
+      <DisplayName>Sell</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\coinsell.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\coinsell.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\buttons\coinsell.dds</InputConstraintIcon>
+    </Class>
+	
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Buy</SubtypeId>
+      </Id>
+      <DisplayName>Buy</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\coinbuy.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\coinbuy.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\buttons\coinbuy.dds</InputConstraintIcon>
+    </Class>
+	
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Random</SubtypeId>
+      </Id>
+      <DisplayName>Buy</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\random.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\random.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\buttons\random.dds</InputConstraintIcon>
+    </Class>
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+ <Entry Class="Sell" BlueprintSubtypeId="StoneOreToCoin" />
+ <Entry Class="Sell" BlueprintSubtypeId="IronOreToCoin" />
+  <Entry Class="Sell" BlueprintSubtypeId="NickelOreToCoin" />
+  <Entry Class="Sell" BlueprintSubtypeId="CobaltOreToCoin" />
+  <Entry Class="Sell" BlueprintSubtypeId="MagnesiumOreToCoin" />
+  <Entry Class="Sell" BlueprintSubtypeId="SiliconOreToCoin" />
+  <Entry Class="Sell" BlueprintSubtypeId="SilverOreToCoin" />
+  <Entry Class="Sell" BlueprintSubtypeId="GoldOreToCoin" />
+  <Entry Class="Sell" BlueprintSubtypeId="PlatinumOreToCoin" />
+  <Entry Class="Sell" BlueprintSubtypeId="UraniumOreToCoin" />
+ 
+    <Entry Class="Buy" BlueprintSubtypeId="CoinToIce" />
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToStoneIngot" />
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToIronIngot" />
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToNickelIngot" />
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToCobaltIngot" />
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToMagnesiumIngot" />
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToSiliconIngot" />
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToSilverIngot" />
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToGoldIngot" />
+  <!--<Entry Class="Buy" BlueprintSubtypeId="CoinToPlatinumIngot" />-->
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToUraniumIngot" />
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToSupply" />  
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToSupply2" /> 
+  <Entry Class="Buy" BlueprintSubtypeId="CoinToXiaoFan" /> 
+  <Entry Class="Random" BlueprintSubtypeId="CoinToRandomItem" />
+	
+	</BlueprintClassEntries>
+</Definitions>

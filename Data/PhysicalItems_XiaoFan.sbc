@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Coin</SubtypeId>
+      </Id>
+      <DisplayName>XiaoFan Coin</DisplayName>
+      <Icon>Textures\GUI\Icons\gold_bars.dds</Icon>
+      <Size>
+        <X>0.046</X>
+        <Y>0.046</Y>
+        <Z>0.046</Z>
+      </Size>
+      <Mass>0.01</Mass>
+      <Volume>0.00095</Volume>
+      <Model>Models\Ingots\gold_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Fan</IconSymbol>
+    </PhysicalItem>
+	
+	 <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>RandomItem</SubtypeId>
+      </Id>
+      <DisplayName>Random Item</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\dice.dds</Icon>
+      <Size>
+        <X>0.046</X>
+        <Y>0.046</Y>
+        <Z>0.046</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.095</Volume>
+      <Model>Models\Ingots\gold_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Rnd</IconSymbol>
+    </PhysicalItem>
+	
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Supply</SubtypeId>
+      </Id>
+      <DisplayName>Supply I</DisplayName>
+      <Icon>Textures\GUI\Icons\supply.dds</Icon>
+      <Size>
+        <X>0.046</X>
+        <Y>0.046</Y>
+        <Z>0.046</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.095</Volume>
+      <Model>Models\Ingots\gold_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Sup I</IconSymbol>
+    </PhysicalItem>
+	
+		<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Supply2</SubtypeId>
+      </Id>
+      <DisplayName>Supply II</DisplayName>
+      <Icon>Textures\GUI\Icons\supply2.dds</Icon>
+      <Size>
+        <X>0.046</X>
+        <Y>0.046</Y>
+        <Z>0.046</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.095</Volume>
+      <Model>Models\Ingots\gold_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Sup II</IconSymbol>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>T1Tech</SubtypeId>
+      </Id>
+      <DisplayName>T1 Tech</DisplayName>
+      <Icon>Textures\GUI\Icons\t1alien.dds</Icon>
+      <Size>
+        <X>0.046</X>
+        <Y>0.046</Y>
+        <Z>0.046</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.095</Volume>
+      <Model>Models\Ingots\gold_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>T1</IconSymbol>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>T2Tech</SubtypeId>
+      </Id>
+      <DisplayName>T2 Tech</DisplayName>
+      <Icon>Textures\GUI\Icons\t2biohazard.dds</Icon>
+      <Size>
+        <X>0.046</X>
+        <Y>0.046</Y>
+        <Z>0.046</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.095</Volume>
+      <Model>Models\Ingots\gold_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>T2</IconSymbol>
+    </PhysicalItem>
+	
+  </PhysicalItems>
+</Definitions>
