@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+	<ContainerType CountMin="1" CountMax="2">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>ZombieLoot</SubtypeId>
+      </Id>
+
+	  
+      <Items>
+	  
+	  	  <Item AmountMin="2" AmountMax="2">
+          <Frequency>30.0</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>T2Tech</SubtypeId>
+          </Id>
+        </Item>
+
+		<Item AmountMin="900" AmountMax="1800">
+          <Frequency>5.0</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Coin</SubtypeId>
+          </Id>
+        </Item>
+		<Item AmountMin="9" AmountMax="9">
+          <Frequency>5.0</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>RandomItem</SubtypeId>
+          </Id>
+        </Item>
+		<Item AmountMin="6" AmountMax="6">
+          <Frequency>30.0</Frequency>
+          <Id>
+            <TypeId>Ingot</TypeId>
+            <SubtypeId>Supply2</SubtypeId>
+          </Id>
+        </Item>
+		
+	  	  <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Ice</SubtypeId>
+          </Id>
+        </Item>
+	    <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Stone</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Iron</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Nickel</SubtypeId>
+          </Id>
+        </Item> 
+        <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Cobalt</SubtypeId>
+          </Id>
+        </Item>    
+        <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Magnesium</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Silicon</SubtypeId>
+          </Id>
+        </Item> 
+        <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Silver</SubtypeId>
+          </Id>
+        </Item>  
+        <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Gold</SubtypeId>
+          </Id>
+        </Item>
+		
+        <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Platinum</SubtypeId>
+          </Id>
+        </Item> 
+		
+        <Item AmountMin="100" AmountMax="200">
+          <Frequency>1.0</Frequency>
+          <Id>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Uranium</SubtypeId>
+          </Id>
+        </Item>  		
+		
+      </Items>
+    </ContainerType>
+
+  </ContainerTypes>
+</Definitions>

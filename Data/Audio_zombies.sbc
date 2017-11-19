@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ZDeathz01</SubtypeId>
+      </Id>
+      <Category>BOT</Category>
+      <MaxDistance>40</MaxDistance>
+      <Volume>1</Volume>
+      <PitchVariation>100</PitchVariation>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Zombie\ZombieDeath3d01z.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Zombie\ZombieDeath3d02z.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcBotWolfWaveInt</SubtypeId>
+      </Id>
+      <Category>BOT</Category>
+      <MaxDistance>40</MaxDistance>
+      <Volume>0.7</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\Zombie\ZombWaveInt.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcBotWolfAttack</SubtypeId>
+      </Id>
+      <Category>BOT</Category>
+      <MaxDistance>40</MaxDistance>
+      <Volume>0.5</Volume>
+      <PitchVariation>150</PitchVariation>
+      <VolumeVariation>3</VolumeVariation>
+      <Loopable>false</Loopable>
+      <SoundLimit>3</SoundLimit>
+      <PreventSynchronization>10</PreventSynchronization>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Zombie\ZombAttack1.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Zombie\ZombAttack2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Zombie\ZombAttack3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+
+  </Sounds>
+</Definitions>
