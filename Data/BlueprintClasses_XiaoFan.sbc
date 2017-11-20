@@ -61,6 +61,8 @@
   <Entry Class="Buy" BlueprintSubtypeId="CoinToSupply2" /> 
   <Entry Class="Buy" BlueprintSubtypeId="CoinToXiaoFan" /> 
   <Entry Class="Random" BlueprintSubtypeId="CoinToRandomItem" />
-	
+  
+   <Entry Class="Components" BlueprintSubtypeId="T1Component" />
+   <Entry Class="Components" BlueprintSubtypeId="T2Component" />	
 	</BlueprintClassEntries>
 </Definitions>

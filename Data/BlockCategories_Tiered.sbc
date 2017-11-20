@@ -1,0 +1,34 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+	  <ItemIds>
+        <string>OxygenFarm/LargeBlockOxygenFarmT1</string>
+        <string>OxygenFarm/LargeBlockOxygenFarmT2</string>
+		<string>OxygenFarm/LargeBlockHydrogenFarmT1</string>
+        <string>OxygenFarm/LargeBlockHydrogenFarmT2</string>
+		<string>SolarPanel/LargeBlockSolarPanelT1</string>
+        <string>SolarPanel/LargeBlockSolarPanelT2</string>
+      </ItemIds>
+    </Category>
+	
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>	  
+        <string>SolarPanel/SmallBlockSolarPanelT1</string>
+		<string>SolarPanel/SmallBlockSolarPanelT2</string>
+	</ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

@@ -379,5 +379,36 @@
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
 	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1Component</SubtypeId>
+      </Id>
+      <DisplayName>T1 Component</DisplayName>
+      <Icon>Textures\GUI\Icons\t1.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="T1Tech" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T1Component" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2Component</SubtypeId>
+      </Id>
+      <DisplayName>T2 Component</DisplayName>
+      <Icon>Textures\GUI\Icons\t2.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="T1Tech" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="T2Tech" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T2Component" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
 	</Blueprints>
 </Definitions>
