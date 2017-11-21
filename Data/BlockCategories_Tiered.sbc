@@ -15,6 +15,8 @@
         <string>OxygenFarm/LargeBlockHydrogenFarmT2</string>
 		<string>SolarPanel/LargeBlockSolarPanelT1</string>
         <string>SolarPanel/LargeBlockSolarPanelT2</string>
+		<string>BatteryBlock/LargeBlockBatteryBlockT1</string>
+		<string>BatteryBlock/LargeBlockBatteryBlockT2</string>
       </ItemIds>
     </Category>
 	
@@ -28,6 +30,8 @@
       <ItemIds>	  
         <string>SolarPanel/SmallBlockSolarPanelT1</string>
 		<string>SolarPanel/SmallBlockSolarPanelT2</string>
+		<string>BatteryBlock/SmallBlockBatteryBlockT1</string>
+		<string>BatteryBlock/SmallBlockBatteryBlockT2</string>
 	</ItemIds>
     </Category>
   </CategoryClasses>
