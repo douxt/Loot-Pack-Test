@@ -17,6 +17,8 @@
         <string>SolarPanel/LargeBlockSolarPanelT2</string>
 		<string>BatteryBlock/LargeBlockBatteryBlockT1</string>
 		<string>BatteryBlock/LargeBlockBatteryBlockT2</string>
+		<string>Gyro/LargeBlockGyroT1</string>
+		<string>Gyro/LargeBlockGyroT2</string>
       </ItemIds>
     </Category>
 	
@@ -32,7 +34,32 @@
 		<string>SolarPanel/SmallBlockSolarPanelT2</string>
 		<string>BatteryBlock/SmallBlockBatteryBlockT1</string>
 		<string>BatteryBlock/SmallBlockBatteryBlockT2</string>
+		
+			<string>Gyro/SmallBlockGyroT1</string>
+			<string>Gyro/SmallBlockGyroT2</string>
 	</ItemIds>
     </Category>
+	
+	    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Power</DisplayName>
+      <Name>Power</Name>
+      <ItemIds>
+        <string>Reactor/LargeHe3FusionReactorT1</string>
+        <string>Reactor/SmallHe3FusionReactorT1</string>
+        <string>Reactor/SmallHe3FusionReactorSmallT1</string>
+        <string>Reactor/LargeHe3FusionReactorSmallT1</string>
+		
+        <string>Reactor/LargeHe3FusionReactorT2</string>
+        <string>Reactor/SmallHe3FusionReactorT2</string>
+        <string>Reactor/SmallHe3FusionReactorSmallT2</string>
+        <string>Reactor/LargeHe3FusionReactorSmallT2</string>
+		
+      </ItemIds>
+    </Category>
+	
   </CategoryClasses>
 </Definitions>

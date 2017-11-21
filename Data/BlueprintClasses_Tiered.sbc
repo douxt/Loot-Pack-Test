@@ -18,5 +18,23 @@
 	
     <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockT2" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockT2" /> 
+	
+	      <Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/LargeBlockGyroT1" />
+	  
+	  <Entry Class="SmallBlocks" BlueprintSubtypeId="Gyro/SmallBlockGyroT1" />
+	  
+	        <Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/LargeBlockGyroT2" />
+	  
+	  <Entry Class="SmallBlocks" BlueprintSubtypeId="Gyro/SmallBlockGyroT2" />
+	  
+	 <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeHe3FusionReactorT1" />                      
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/SmallHe3FusionReactorT1" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/LargeHe3FusionReactorSmallT1" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallHe3FusionReactorSmallT1" />
+	
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeHe3FusionReactorT2" />                      
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/SmallHe3FusionReactorT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/LargeHe3FusionReactorSmallT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallHe3FusionReactorSmallT2" />
 	</BlueprintClassEntries>
 </Definitions>

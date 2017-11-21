@@ -1,6 +1,25 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
+  		<PhysicalItem>
+			<Id>
+				<TypeId>Ingot</TypeId>
+				<SubtypeId>Helium</SubtypeId>
+			</Id>
+			<DisplayName>Liquid Helium 3</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\helium_bottle.dds</Icon>
+			<Size>
+				<X>0.072</X>
+				<Y>0.072</Y>
+				<Z>0.072</Z>
+			</Size>
+			<Mass>1</Mass>
+			<Volume>1.808</Volume>
+			<Model>Models\Ingots\helium_tank_ingot.mwm</Model>
+			<PhysicalMaterial>Metal</PhysicalMaterial>
+			<IconSymbol>He3</IconSymbol>
+		</PhysicalItem>
+  
     <PhysicalItem>
       <Id>
         <TypeId>Ingot</TypeId>
