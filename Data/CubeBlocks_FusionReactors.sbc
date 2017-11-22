@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+<!--Start Small Ship Azimuth Fusion Reactor-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>SmallHe3FusionReactorT1</SubtypeId>
+      </Id>
+      <DisplayName>Large He3 Fusion Reactor T1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactorT1.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\FusionReactors\FusionReactorsmall.mwm</Model>
+      <Components>
+	    <Component Subtype="T1Component" Count="5" />
+        <Component Subtype="SteelPlate" Count="120" />
+        <Component Subtype="Construction" Count="27" />
+        <Component Subtype="MetalGrid" Count="27" />
+        <Component Subtype="LargeTube" Count="9" />
+        <Component Subtype="Superconductor" Count="15" />
+        <Component Subtype="Reactor" Count="285" />
+        <Component Subtype="Motor" Count="15" />
+        <Component Subtype="Computer" Count="75" />
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="T1Component" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\FusionReactors\FusionReactorsmall_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\FusionReactors\FusionReactorsmall_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\FusionReactors\FusionReactorsmall_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>FusionReactorT1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <MaxPowerOutput>59</MaxPowerOutput>
+	  <InventoryMaxVolume>0.375</InventoryMaxVolume>
+      <InventorySize>
+        <X>1.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Helium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+	   <BlockVariants>
+        <BlockVariant>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallHe3FusionReactorSmallT1</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+<!--End Small Ship Azimuth Fusion Reactor-->
+
+<!--Start Large Ship Azimuth Fusion Reactor-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>LargeHe3FusionReactorT1</SubtypeId>
+      </Id>
+      <DisplayName>Large He3 Fusion Reactor T1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactorT1.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\FusionReactors\FusionReactor.mwm</Model>
+      <Components>
+	  	 <Component Subtype="T1Component" Count="25" />
+        <Component Subtype="SteelPlate" Count="2400" />
+        <Component Subtype="Construction" Count="210" />
+        <Component Subtype="MetalGrid" Count="120" />
+        <Component Subtype="LargeTube" Count="120" />
+        <Component Subtype="Superconductor" Count="300" />
+        <Component Subtype="Reactor" Count="6000" />
+        <Component Subtype="Motor" Count="60" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="SteelPlate" Count="600" />
+      </Components>
+      <CriticalComponent Subtype="T1Component" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models\Cubes\FusionReactors\FusionReactor_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.40" File="Models\Cubes\FusionReactors\FusionReactor_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="0.60" File="Models\Cubes\FusionReactors\FusionReactor_Construction_3.mwm" />
+        <Model BuildPercentUpperBound="0.80" File="Models\Cubes\FusionReactors\FusionReactor_Construction_4.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\FusionReactors\FusionReactor_Construction_5.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>FusionReactorT1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>180</BuildTimeSeconds>
+      <MaxPowerOutput>1200</MaxPowerOutput>
+      <InventorySize>
+        <X>2.0</X>
+        <Y>2.0</Y>
+        <Z>2.0</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Helium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+	  <BlockVariants>
+        <BlockVariant>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeHe3FusionReactorSmallT1</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+<!--End Large Ship Azimuth Fusion Reactor-->
+
+
+<!--Start Small Ship Azimuth Fusion Reactor Tiny-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>SmallHe3FusionReactorSmallT1</SubtypeId>
+      </Id>
+      <DisplayName>Small He3 Fusion Reactor T1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactorT1.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\FusionReactors\Fusiontiny.mwm</Model>
+      <Components>
+	  	  	 <Component Subtype="T1Component" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="MetalGrid" Count="6" />
+        <Component Subtype="LargeTube" Count="3" />
+        <Component Subtype="Superconductor" Count="1" />
+        <Component Subtype="Reactor" Count="9" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="SteelPlate" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="T1Component" Index="0" />
+      <BlockPairName>FusionReactorSmallT1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <MaxPowerOutput>2</MaxPowerOutput>
+	  <InventoryMaxVolume>0.125</InventoryMaxVolume>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Helium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+	  <GuiVisible>false</GuiVisible>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+    </Definition>
+<!--End Small Ship Azimuth Fusion Reactor Tiny-->
+
+<!--Start Large Ship Azimuth Fusion Reactor Tiny-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>LargeHe3FusionReactorSmallT1</SubtypeId>
+      </Id>
+      <DisplayName>Small He3 Fusion Reactor T1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactorT1.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\FusionReactors\Large\Fusiontiny.mwm</Model>
+      <Components>
+	  	<Component Subtype="T1Component" Count="5" />
+        <Component Subtype="SteelPlate" Count="150" />
+        <Component Subtype="Construction" Count="120" />
+        <Component Subtype="MetalGrid" Count="12" />
+        <Component Subtype="LargeTube" Count="24" />
+        <Component Subtype="Superconductor" Count="15" />
+        <Component Subtype="Reactor" Count="300" />
+        <Component Subtype="Motor" Count="18" />
+        <Component Subtype="Computer" Count="75" />
+        <Component Subtype="SteelPlate" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="T1Component" Index="0" />
+      <BlockPairName>FusionReactorSmallT1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <MaxPowerOutput>60</MaxPowerOutput>
+      <InventorySize>
+        <X>2.0</X>
+        <Y>2.0</Y>
+        <Z>2.0</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Helium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+	  <GuiVisible>false</GuiVisible>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+    </Definition>
+<!--End Large Ship Azimuth Fusion Reactor Tiny-->
+
+<!--Start Small Ship Azimuth Fusion Reactor-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>SmallHe3FusionReactorT2</SubtypeId>
+      </Id>
+      <DisplayName>Large He3 Fusion Reactor T2</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactorT2.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\FusionReactors\FusionReactorsmall.mwm</Model>
+      <Components>
+	    <Component Subtype="T2Component" Count="5" />
+        <Component Subtype="SteelPlate" Count="120" />
+        <Component Subtype="Construction" Count="27" />
+        <Component Subtype="MetalGrid" Count="27" />
+        <Component Subtype="LargeTube" Count="9" />
+        <Component Subtype="Superconductor" Count="15" />
+        <Component Subtype="Reactor" Count="285" />
+        <Component Subtype="Motor" Count="15" />
+        <Component Subtype="Computer" Count="75" />
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <CriticalComponent Subtype="T2Component" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\FusionReactors\FusionReactorsmall_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\FusionReactors\FusionReactorsmall_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\FusionReactors\FusionReactorsmall_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>FusionReactorT2</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <MaxPowerOutput>118</MaxPowerOutput>
+	  <InventoryMaxVolume>0.375</InventoryMaxVolume>
+      <InventorySize>
+        <X>1.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Helium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+	   <BlockVariants>
+        <BlockVariant>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallHe3FusionReactorSmallT2</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+<!--End Small Ship Azimuth Fusion Reactor-->
+
+<!--Start Large Ship Azimuth Fusion Reactor-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>LargeHe3FusionReactorT2</SubtypeId>
+      </Id>
+      <DisplayName>Large He3 Fusion Reactor T2</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactorT2.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\FusionReactors\FusionReactor.mwm</Model>
+      <Components>
+	  	 <Component Subtype="T2Component" Count="25" />
+        <Component Subtype="SteelPlate" Count="2400" />
+        <Component Subtype="Construction" Count="210" />
+        <Component Subtype="MetalGrid" Count="120" />
+        <Component Subtype="LargeTube" Count="120" />
+        <Component Subtype="Superconductor" Count="300" />
+        <Component Subtype="Reactor" Count="6000" />
+        <Component Subtype="Motor" Count="60" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="SteelPlate" Count="600" />
+      </Components>
+      <CriticalComponent Subtype="T2Component" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models\Cubes\FusionReactors\FusionReactor_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.40" File="Models\Cubes\FusionReactors\FusionReactor_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="0.60" File="Models\Cubes\FusionReactors\FusionReactor_Construction_3.mwm" />
+        <Model BuildPercentUpperBound="0.80" File="Models\Cubes\FusionReactors\FusionReactor_Construction_4.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\FusionReactors\FusionReactor_Construction_5.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>FusionReactorT2</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>180</BuildTimeSeconds>
+      <MaxPowerOutput>2400</MaxPowerOutput>
+      <InventorySize>
+        <X>2.0</X>
+        <Y>2.0</Y>
+        <Z>2.0</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Helium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+	  <BlockVariants>
+        <BlockVariant>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeHe3FusionReactorSmallT2</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+<!--End Large Ship Azimuth Fusion Reactor-->
+
+
+<!--Start Small Ship Azimuth Fusion Reactor Tiny-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>SmallHe3FusionReactorSmallT2</SubtypeId>
+      </Id>
+      <DisplayName>Small He3 Fusion Reactor T2</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactorT2.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\FusionReactors\Fusiontiny.mwm</Model>
+      <Components>
+	  	  	 <Component Subtype="T2Component" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="MetalGrid" Count="6" />
+        <Component Subtype="LargeTube" Count="3" />
+        <Component Subtype="Superconductor" Count="1" />
+        <Component Subtype="Reactor" Count="9" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="SteelPlate" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="T2Component" Index="0" />
+      <BlockPairName>FusionReactorSmallT2</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <MaxPowerOutput>4</MaxPowerOutput>
+	  <InventoryMaxVolume>0.125</InventoryMaxVolume>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Helium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+	  <GuiVisible>false</GuiVisible>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+    </Definition>
+<!--End Small Ship Azimuth Fusion Reactor Tiny-->
+
+<!--Start Large Ship Azimuth Fusion Reactor Tiny-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>LargeHe3FusionReactorSmallT2</SubtypeId>
+      </Id>
+      <DisplayName>Small He3 Fusion Reactor T2</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactorT2.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\FusionReactors\Large\Fusiontiny.mwm</Model>
+      <Components>
+	  	<Component Subtype="T2Component" Count="5" />
+        <Component Subtype="SteelPlate" Count="150" />
+        <Component Subtype="Construction" Count="120" />
+        <Component Subtype="MetalGrid" Count="12" />
+        <Component Subtype="LargeTube" Count="24" />
+        <Component Subtype="Superconductor" Count="15" />
+        <Component Subtype="Reactor" Count="300" />
+        <Component Subtype="Motor" Count="18" />
+        <Component Subtype="Computer" Count="75" />
+        <Component Subtype="SteelPlate" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="T2Component" Index="0" />
+      <BlockPairName>FusionReactorSmallT2</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <MaxPowerOutput>120</MaxPowerOutput>
+      <InventorySize>
+        <X>2.0</X>
+        <Y>2.0</Y>
+        <Z>2.0</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Helium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+      <DamageEffectId>210</DamageEffectId>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+	  <GuiVisible>false</GuiVisible>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+    </Definition>
+<!--End Large Ship Azimuth Fusion Reactor Tiny-->
+  </CubeBlocks>
+</Definitions>

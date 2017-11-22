@@ -165,6 +165,14 @@ namespace Douxt
             {
                 inventory.AddItems(ran.Next(1, 10), new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
             }
+			
+			int he = 0;
+			if (spider)
+			{
+				he = 3;
+			}
+			
+			inventory.AddItems(ran.Next(1 + he, 3 + he), new MyObjectBuilder_Ingot { SubtypeName = "Helium" });
         }
 
     }
