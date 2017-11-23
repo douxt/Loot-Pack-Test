@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BlueprintClassEntries>
+  
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeThrustT1" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallThrustT1" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeAtmosphericThrustT1" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallAtmosphericThrustT1" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeHydrogenThrustT1" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallHydrogenThrustT1" />    
+	
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeThrustT1" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallThrustT1" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeAtmosphericThrustT1" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallAtmosphericThrustT1" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeHydrogenThrustT1" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallHydrogenThrustT1" />
+	
+	
+	 <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeThrustT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallThrustT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeAtmosphericThrustT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallAtmosphericThrustT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeHydrogenThrustT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallHydrogenThrustT2" />    
+	
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeThrustT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallThrustT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeAtmosphericThrustT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallAtmosphericThrustT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeHydrogenThrustT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallHydrogenThrustT2" />
+	</BlueprintClassEntries>
+</Definitions>

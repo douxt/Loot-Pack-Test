@@ -1,0 +1,55 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+	  <ItemIds>
+		<string>Thrust/LargeBlockLargeThrustT1</string>
+        <string>Thrust/LargeBlockSmallThrustT1</string>
+        <string>Thrust/LargeBlockLargeAtmosphericThrustT1</string>
+        <string>Thrust/LargeBlockSmallAtmosphericThrustT1</string>
+        <string>Thrust/LargeBlockLargeHydrogenThrustT1</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrustT1</string>
+		
+		<string>Thrust/LargeBlockLargeThrustT2</string>
+        <string>Thrust/LargeBlockSmallThrustT2</string>
+        <string>Thrust/LargeBlockLargeAtmosphericThrustT2</string>
+        <string>Thrust/LargeBlockSmallAtmosphericThrustT2</string>
+        <string>Thrust/LargeBlockLargeHydrogenThrustT2</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrustT2</string>
+		
+      </ItemIds>
+    </Category>
+	
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>	  
+        <string>Thrust/SmallBlockLargeThrustT1</string>
+        <string>Thrust/SmallBlockSmallThrustT1</string>
+        <string>Thrust/SmallBlockLargeAtmosphericThrustT1</string>
+        <string>Thrust/SmallBlockSmallAtmosphericThrustT1</string>
+        <string>Thrust/SmallBlockLargeHydrogenThrustT1</string>
+        <string>Thrust/SmallBlockSmallHydrogenThrustT1</string>
+		
+		<string>Thrust/SmallBlockLargeThrustT2</string>
+        <string>Thrust/SmallBlockSmallThrustT2</string>
+        <string>Thrust/SmallBlockLargeAtmosphericThrustT2</string>
+        <string>Thrust/SmallBlockSmallAtmosphericThrustT2</string>
+        <string>Thrust/SmallBlockLargeHydrogenThrustT2</string>
+        <string>Thrust/SmallBlockSmallHydrogenThrustT2</string>
+	</ItemIds>
+    </Category>
+	
+	
+  </CategoryClasses>
+</Definitions>
