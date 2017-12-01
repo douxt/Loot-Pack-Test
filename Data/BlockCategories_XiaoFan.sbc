@@ -13,6 +13,7 @@
 		<string>OxygenFarm/HydrogenFarm</string>
 		<string>Assembler/IronMine</string>
 		<string>Assembler/RandomShop</string>
+		<string>CargoContainer/FuBox</string>
 	  </ItemIds>
     </Category>
 	
@@ -29,6 +30,7 @@
 		<string>OxygenFarm/HydrogenFarm</string>
 		<string>OxygenFarm/LargeBlockOxygenFarm</string>
 		<string>Assembler/RandomShop</string>
+		<string>CargoContainer/FuBox</string>
       </ItemIds>
     </Category>
 	

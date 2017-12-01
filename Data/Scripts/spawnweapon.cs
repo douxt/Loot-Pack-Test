@@ -378,4 +378,90 @@ namespace Douxt
         }
 
     }
+
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_CargoContainer), true, "FuBox")]
+    public class FuBox : MyGameLogicComponent
+    {
+        private MyObjectBuilder_EntityBase builder;
+        private Sandbox.ModAPI.IMyCargoContainer m_generator;
+        private IMyCubeBlock m_parent;
+
+        Sandbox.ModAPI.IMyTerminalBlock terminalBlock;
+
+        private static ulong frameShift = 0;
+        private ulong Frame;
+        public override void Init(MyObjectBuilder_EntityBase objectBuilder)
+        {
+            m_generator = Entity as Sandbox.ModAPI.IMyCargoContainer;
+            m_parent = Entity as IMyCubeBlock;
+            builder = objectBuilder;
+
+            Entity.NeedsUpdate |= MyEntityUpdateEnum.EACH_100TH_FRAME; //|= MyEntityUpdateEnum.EACH_FRAME
+
+            terminalBlock = Entity as Sandbox.ModAPI.IMyTerminalBlock;
+        }
+        #region UpdateBeforeSimulation
+        public override void UpdateBeforeSimulation100()
+        {
+            base.UpdateBeforeSimulation100();
+
+            if (m_generator.IsWorking)
+            {
+                Frame = frameShift++;
+                if (Frame % 30 != 0)
+                {
+                    return;
+                }
+
+                //IMyInventory inventory = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(0) as IMyInventory;
+
+                //if (!inventory.ContainItems(10000, new MyObjectBuilder_Ingot { SubtypeName = "Coin" }))
+                //{
+                //    inventory.AddItems(5, new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
+                //    terminalBlock.RefreshCustomInfo();
+                //}
+                //IMyInventory inventory1 = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(1) as IMyInventory;
+                //if (!inventory1.ContainItems(10, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_25x184mm" }))
+                //{
+                //    inventory1.AddItems(1, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_25x184mm" });
+                //    terminalBlock.RefreshCustomInfo();
+                //}
+
+
+                List<IMyPlayer> players = new List<IMyPlayer>();
+                MyAPIGateway.Players.GetPlayers(players, x => x.Controller != null && x.Controller.ControlledEntity != null);
+                foreach (IMyPlayer player in players)
+                {
+                    if (player.IsBot)
+                    {
+                        continue;
+                    }
+                    if (player.Controller.ControlledEntity is IMyCharacter)
+                    {
+
+                        MyEntity entity = player.Controller.ControlledEntity.Entity as MyEntity;
+                        if (entity.HasInventory)
+                        {
+                            IMyInventory inventory = entity.GetInventoryBase() as MyInventory;
+                            if (!inventory.ContainItems(10000, new MyObjectBuilder_Ingot { SubtypeName = "Coin" }))
+                            {
+                                inventory.AddItems(60, new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
+                                terminalBlock.RefreshCustomInfo();
+                            }
+                        }
+                    }
+
+                }
+
+
+            }
+        }
+        #endregion
+        public override MyObjectBuilder_EntityBase GetObjectBuilder(bool copy = false)
+        {
+            return builder;
+        }
+
+    }
+
 }
