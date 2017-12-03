@@ -59,16 +59,16 @@ namespace Douxt
                 IMyInventory inventory = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(1) as IMyInventory;
                 VRage.MyFixedPoint amount = 1;
 
-                if (!inventory.ContainItems(amount, new MyObjectBuilder_PhysicalGunObject { SubtypeName = "AutomaticRifleItem" }))
-                {
-                    inventory.AddItems(amount, new MyObjectBuilder_PhysicalGunObject { SubtypeName = "AutomaticRifleItem" });
-                    terminalBlock.RefreshCustomInfo();
-                }
-                if (!inventory.ContainItems(amount, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_5p56x45mm" }))
-                {
-                    inventory.AddItems(10, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_5p56x45mm" });
-                    terminalBlock.RefreshCustomInfo();
-                }
+                //if (!inventory.ContainItems(amount, new MyObjectBuilder_PhysicalGunObject { SubtypeName = "AutomaticRifleItem" }))
+                //{
+                //    inventory.AddItems(amount, new MyObjectBuilder_PhysicalGunObject { SubtypeName = "AutomaticRifleItem" });
+                //    terminalBlock.RefreshCustomInfo();
+                //}
+                //if (!inventory.ContainItems(amount, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_5p56x45mm" }))
+                //{
+                //    inventory.AddItems(10, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_5p56x45mm" });
+                //    terminalBlock.RefreshCustomInfo();
+                //}
                 //if (!inventory.ContainItems(10000, new MyObjectBuilder_Ore { SubtypeName = "Iron" }))
                 //{
                 //    inventory.AddItems(amount, new MyObjectBuilder_Ore { SubtypeName = "Iron" });
