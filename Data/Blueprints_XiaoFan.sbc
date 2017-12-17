@@ -291,9 +291,9 @@
       <DisplayName>DisplayName_Item_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
       <Prerequisites>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Coin" />
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Coin" />
       </Prerequisites>
-      <Result Amount="0.4" TypeId="Ingot" SubtypeId="Gold" />
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Gold" />
       <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
     </Blueprint>
 	<!--

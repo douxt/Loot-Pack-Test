@@ -26,7 +26,7 @@
         <Component Subtype="Computer" Count="75" />
         <Component Subtype="SteelPlate" Count="60" />
       </Components>
-      <CriticalComponent Subtype="T1Component" Index="0" />
+      <CriticalComponent Subtype="Reactor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\FusionReactors\FusionReactorsmall_Construction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\FusionReactors\FusionReactorsmall_Construction_2.mwm" />
@@ -87,7 +87,7 @@
         <Component Subtype="Computer" Count="225" />
         <Component Subtype="SteelPlate" Count="600" />
       </Components>
-      <CriticalComponent Subtype="T1Component" Index="0" />
+      <CriticalComponent Subtype="Reactor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.20" File="Models\Cubes\FusionReactors\FusionReactor_Construction_1.mwm" />
         <Model BuildPercentUpperBound="0.40" File="Models\Cubes\FusionReactors\FusionReactor_Construction_2.mwm" />
@@ -150,7 +150,7 @@
         <Component Subtype="Computer" Count="30" />
         <Component Subtype="SteelPlate" Count="6" />
       </Components>
-      <CriticalComponent Subtype="T1Component" Index="0" />
+      <CriticalComponent Subtype="Reactor" Index="0" />
       <BlockPairName>FusionReactorSmallT1</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -201,7 +201,7 @@
         <Component Subtype="Computer" Count="75" />
         <Component Subtype="SteelPlate" Count="90" />
       </Components>
-      <CriticalComponent Subtype="T1Component" Index="0" />
+      <CriticalComponent Subtype="Reactor" Index="0" />
       <BlockPairName>FusionReactorSmallT1</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -251,7 +251,7 @@
         <Component Subtype="Computer" Count="75" />
         <Component Subtype="SteelPlate" Count="60" />
       </Components>
-      <CriticalComponent Subtype="T2Component" Index="0" />
+      <CriticalComponent Subtype="Reactor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\FusionReactors\FusionReactorsmall_Construction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\FusionReactors\FusionReactorsmall_Construction_2.mwm" />
@@ -312,7 +312,7 @@
         <Component Subtype="Computer" Count="225" />
         <Component Subtype="SteelPlate" Count="600" />
       </Components>
-      <CriticalComponent Subtype="T2Component" Index="0" />
+      <CriticalComponent Subtype="Reactor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.20" File="Models\Cubes\FusionReactors\FusionReactor_Construction_1.mwm" />
         <Model BuildPercentUpperBound="0.40" File="Models\Cubes\FusionReactors\FusionReactor_Construction_2.mwm" />
@@ -375,7 +375,7 @@
         <Component Subtype="Computer" Count="30" />
         <Component Subtype="SteelPlate" Count="6" />
       </Components>
-      <CriticalComponent Subtype="T2Component" Index="0" />
+      <CriticalComponent Subtype="Reactor" Index="0" />
       <BlockPairName>FusionReactorSmallT2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -426,7 +426,7 @@
         <Component Subtype="Computer" Count="75" />
         <Component Subtype="SteelPlate" Count="90" />
       </Components>
-      <CriticalComponent Subtype="T2Component" Index="0" />
+      <CriticalComponent Subtype="Reactor" Index="0" />
       <BlockPairName>FusionReactorSmallT2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
